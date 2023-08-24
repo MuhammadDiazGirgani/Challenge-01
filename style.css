@@ -1,0 +1,401 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation{
+  float: right;
+  margin-top: -30px;
+}
+
+.bcr{
+  display: none;
+}
+#logo{
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 100px;
+  height: 30px;
+}
+nav ul{
+  display: flex;
+  color: #000;
+  text-align: center;
+  padding: 14px 56px;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li{
+  padding: 10px 30px;
+}
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+}
+.main-container {
+  background-color: #F1F3FF;
+  max-width: 1700px;
+  margin:  auto;
+  padding: 20px;
+}
+.main-content {
+  height: 50vh;
+  padding: 20px;
+}
+h1{
+  padding-top: 50px;
+  padding-left: 80px;
+  font-size: 40px;
+}
+.main-content p{
+  line-height:30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+.btn{
+  border-radius: 2px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5CB85F;
+  margin-left: 80px;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover{
+  border-radius: 2px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3a753c;
+  transition: 0.5s ease-in-out;
+}
+.btn2{
+  border-radius: 2px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5CB85F;
+  transition: 0.5s ease-in-out;
+}
+.btn2:hover{
+  border-radius: 2px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3a753c;
+   transition: 0.5s ease-in-out;
+}
+.responsive{
+  width: 100%;
+  margin-top: -340px;
+  display: flex;
+  justify-content: end;
+}
+.responsive img{
+  margin-right: -30px;
+  max-width: 700px;
+  height: auto;
+}
+/*our-section*/
+.our-service{
+  display: flex;
+  background-color:#fff;
+}
+.container{
+  display: flex;
+}
+.card{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.card4{
+  margin-left: 200px;
+}
+
+.card-body4 h2{
+  margin-left: -40px;
+}
+.card-body4 p{
+  margin-left: -40px;
+}
+h2{
+  font-size: 30px;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+.our-service img{
+  max-width: 450px;
+  height: auto;
+}
+.our-service p{
+  margin-top: 300px;
+float: right;
+}
+.card2 p{
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  text-align: start;
+}
+.card2 ul li{
+  padding-top: 10px;
+  padding-left: 55px;
+  list-style: none;
+}
+.card2 ul li a{
+  padding-left: 20px;
+}
+.card3{
+  border: solid;
+  margin-left: 35px;
+  border-color: #D0D0D0;
+  padding-right: 10px;
+  margin-top: 250px;
+}
+.card3 img{
+  width: 40px;
+  padding-left: 40px;
+}
+
+.card-body3{
+  padding-left: 20px;
+}
+/*our-section*/
+/*why-us*/
+.why-us{
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+}
+.why-us h2{
+  margin: auto;
+}
+.why-us img{
+  margin-left: -20px;
+  margin-top: 30px;
+  height: auto;
+  max-width: 50px;
+}
+/*why-us*/
+/*testimonial*/
+
+/*testimonial*/
+
+
+@media (max-width: 660px) {
+  .responsive{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .responsive img{
+    width: 100%;
+    max-width: 450px;
+  }
+  .main-content {
+    padding: 10px;
+  }
+  .space{
+    display: none;
+  }
+  .our-service{
+    width: 100%;
+    display: block;
+    margin-top: 300px;
+  }
+  .our-service h2{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our-service p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our-service img{
+    padding-right: 60px;
+    max-width: 320px;
+    height: auto;
+  }
+  .card-img-top{
+    padding-left:50px;
+    margin-top: 50px;
+    max-width: 350px;
+  }
+  .why-us h2{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+  }
+  .card2 p{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+  }
+  .card4{
+    margin-left: 10px;
+  
+  }
+  .card-body4 h2{
+    display: table;
+    margin: auto;
+  }
+  .card-body4 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    display: table;
+    margin: auto;
+  }
+  .card-body2 h2{
+    display: table;
+    margin: auto;
+  }
+  .card-body2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    display: table;
+    margin: auto;
+  }
+  .card-body2 ul{
+    margin-top: 50px;
+  }
+  .card2 ul li{
+    list-style: none;
+    margin-left: -40px;
+  }
+   .card2 ul li a{
+    margin-left: -70px;
+  }
+  .why-us{
+    display: table;
+    margin: auto;
+  }
+  .card3{
+    margin: auto;
+  }
+  .card-text{
+    margin-left: 0;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+a,button{
+    cursor: pointer;
+}
+
+nav{
+  position: absolute;
+  top: 100px;
+  right: 50px;
+   width: 250px;
+}
+nav ul{
+  display:table-cell;
+}
+
+.bcr{
+  font-weight: 700;
+  display:flex;
+}
+#logo{
+  margin-top: -0px;
+  margin-left: 0px;
+
+}
+
+.navigation{
+    position: fixed;
+    right: -500px;
+    width: 200px;
+    height: 100%;
+    background-color: #ffffff;
+    transition: .5s;
+}
+
+.navigation ul li{
+  width: 150px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 0.9rem;
+  padding: 20px 80px;
+  
+}
+
+.hamburger, .bar{
+    position: fixed;
+}
+
+.hamburger{
+    display: block;
+    top: 5%;
+    left:  90%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    border: 0;
+    background: 0 0;
+}
+
+.bar{
+    top: 3px;
+    background: #000;
+    width: 100%;
+    height: 4px;
+    transition: all .3s ease-in;
+}
+
+#bar2{
+    top: 11px;
+}
+
+#bar3{
+    top: 19px;
+}
+
+.navigation.active{
+    right: 0;
+}
+
+.hamburger.open #bar1{
+    background-color: #000000;
+    transform: rotate(45deg) translate(6px, 5px);
+}
+
+.hamburger.open #bar2{
+    background-color: transparent;
+}
+
+.hamburger.open #bar3{
+    background-color: #000000;
+    transform: rotate(-45deg) translate(6px, -5px);
+}
+.main-content, h1{
+  padding-bottom: 30px;
+}
+.main-content, p{
+  margin-left: -45px;
+  padding-bottom: 30px;
+}
+
+h1{
+  margin-left: -45px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+.btn{
+  margin-left: 30px;
+}
+
+}
