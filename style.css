@@ -248,6 +248,39 @@ h2 {
   font-weight: 700;
   margin: 0;
 }
+.FAQ {
+  padding-top: 100px;
+  float: right;
+  width: 50%;
+  padding-bottom: 100px;
+}
+.faq-left {
+  margin-left: -500px;
+}
+.accordion-item {
+  margin-top: -70px;
+  padding-right: 150px;
+}
+.accordion-body {
+  width: 80%;
+  margin-left: 100px;
+}
+.accordion-item {
+  border: 5px #fff;
+  box-shadow: #fff;
+}
+.faq-left h5 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 800px;
+}
+.card9 {
+  padding-left: 100px;
+}
 
 /*getting started*/
 
@@ -400,6 +433,7 @@ h2 {
   }
 
   .hamburger {
+    position: fixed;
     display: block;
     top: 5%;
     left: 90%;
@@ -489,8 +523,8 @@ h2 {
     padding-left: 40px;
   }
   .gettingstart {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 550px;
   }
   .gettingstart h5 {
@@ -504,9 +538,60 @@ h2 {
     font-size: 13px;
     font-weight: 200;
   }
+
   .FAQ {
-    align-items: center;
-    justify-content: center;
     display: table-cell;
+    padding-top: 100px;
+    width: 30%;
+    text-align: center;
+  }
+  .faq-left {
+    margin-left: -200px;
+  }
+  .faq-left h5 {
+    width: 250px;
+    font-size: 25px;
+  }
+  .faq-left p {
+    width: 300px;
+    text-align: center;
+    margin-left: -30px;
+  }
+  .accordion-button {
+    margin-left: 120px;
+  }
+  .accordion-item {
+    text-align: start;
+    height: auto;
+    margin-top: -70px;
+    margin-left: -520px;
+  }
+  .accordion-body {
+    width: 80%;
+    margin-left: 210px;
+  }
+  .footer {
+    display: table-cell;
+  }
+  .card9 h6 {
+    margin-left: -130px;
+  }
+}
+@media (max-width: 460px) {
+  .accordion-button {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 430px) {
+  .accordion-button {
+    margin-left: 160px;
+  }
+}
+@media (max-width: 400px) {
+  .accordion-button {
+    margin-left: 130px;
+  }
+  .accordion-item {
+    margin-left: -450px;
   }
 }
