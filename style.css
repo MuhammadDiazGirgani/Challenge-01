@@ -32,6 +32,14 @@ nav ul {
 nav ul li {
   padding: 10px 30px;
 }
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
 .main-container {
   max-width: 1700px;
   margin: auto;
@@ -59,6 +67,16 @@ h1 {
   text-decoration: none;
   color: #ffffff;
   background-color: #5cb85f;
+  transition: 0.5s ease-in-out;
+}
+.btn4:hover {
+  font-weight: 500;
+  border-radius: 1px;
+  padding: 10px 12px 10px 12px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #418143;
+  transition: 0.5s ease-in-out;
 }
 .btn3 {
   padding: 10px 10px 10px 10px;
@@ -67,11 +85,25 @@ h1 {
   background-color: #5cb85f;
   margin-left: 80px;
 }
+.btn3:hover {
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #418143;
+  transition: 0.5s ease-in-out;
+}
 .btn2 {
   padding: 10px 10px 10px 10px;
   text-decoration: none;
   color: #ffffff;
   background-color: #5cb85f;
+}
+.btn2:hover {
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #418143;
+  transition: 0.5s ease-in-out;
 }
 .responsive {
   width: 100%;
@@ -549,7 +581,8 @@ h2 {
     margin-left: -200px;
   }
   .faq-left h5 {
-    width: 250px;
+    margin-left: -30px;
+    width: 330px;
     font-size: 25px;
   }
   .faq-left p {
@@ -568,13 +601,21 @@ h2 {
   }
   .accordion-body {
     width: 80%;
-    margin-left: 210px;
+    margin-left: 250px;
   }
   .footer {
     display: table-cell;
   }
   .card9 h6 {
     margin-left: -130px;
+  }
+  .card9 a {
+    text-decoration: none;
+    color: #000;
+  }
+  .card9 a :hover {
+    text-decoration: none;
+    color: #000;
   }
 }
 @media (max-width: 460px) {
